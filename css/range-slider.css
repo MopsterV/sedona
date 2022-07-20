@@ -1,0 +1,25 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.noUi-connects .noUi-connect {
+   background-color:  #83B3D3;   
+}
+
+.noUi-connects .noUi-target {
+
+}
+
+.noUi-base .noUi-origin .noUi-handle::after,
+.noUi-base .noUi-origin .noUi-handle::before {
+    display: none;
+}
